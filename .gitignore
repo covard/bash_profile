@@ -1,0 +1,6 @@
+# ignore all files
+*
+
+# now allow these files only
+!.gitignore
+!.bash_profile
