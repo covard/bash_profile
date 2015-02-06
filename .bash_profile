@@ -4,7 +4,7 @@ alias home='cd ~'
 alias ll='ls -l'
 alias lla='ls -la'
 alias env_up='echo updating homebrew && brew update && echo updating rvm && rvm get stable && echo updating gem sys && gem update --system && echo update gems && gem update'
-alias cm_src='cd ~/src/checkmedic && rvm gemset use checkmedic'
+alias wrk_src='cd ~/src/checkmedic && rvm gemset use checkmedic'
 alias edit_profile='atom ~/.bash_profile'
 
 # ssh
@@ -20,7 +20,6 @@ alias pull_prod='rake dev:production_to_local && seed'
 alias seed='rake db:seed'
 alias console='rails c'
 alias server='rails s'
-alias reload='. ~/src/reload_dev.sh'
 
 # capistrano
 alias dev_deploy='cap aws_dev deploy'
