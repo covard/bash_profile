@@ -7,12 +7,6 @@ alias env_up='echo updating homebrew && brew update && echo updating rvm && rvm 
 alias wrk_src='cd ~/src/checkmedic && rvm gemset use checkmedic'
 alias edit_profile='atom ~/.bash_profile'
 
-# ssh
-alias ssh_prod='ssh ubuntu@web01.checkmedic.com'
-alias ssh_prod2='ssh ubuntu@web02.checkmedic.com'
-alias ssh_dev='ssh ubuntu@54.191.13.172'
-alias ssh_task='ssh ubuntu@54.187.56.222'
-
 # rails
 alias migrate='rake db:migrate'
 alias reload='rake db:drop && rake db:create && rake db:migrate && rake db:seed'
